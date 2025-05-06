@@ -67,7 +67,7 @@ begin
         port map (
             A => i_A,
             B => w_B,
-            Cin => '0',
+            Cin => i_op(0),
             S => w_sum,
             Cout => w_cout
         ); 
