@@ -126,7 +126,7 @@ begin
 
         assert w_result = x"F9"              -- 0xF9 = -7
             report "SUB 3-10: wrong result" severity error;
-        assert w_flags  = "1001"             -- N=1 Z=0 C=0 V=1
+        assert w_flags  = "1001"             -- N=1 Z=0 C=0 V=0
             report "SUB 3-10: wrong NZCV" severity error;
 
         ----------------------------------------------------------------------------
